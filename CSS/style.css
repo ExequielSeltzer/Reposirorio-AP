@@ -1,9 +1,42 @@
-#banner {
+.navbar {
+  background-color: blanchedalmond;
+  height: 75px;
   width: 100%;
-  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  border-bottom: 1px solid #fff;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
-img {
-  width: 200px;
-  height: auto;
+.Logo-AP {
+  padding-bottom: 16px;
+  padding-left: 10px;
+  height: 70px;
+  width: auto;
+}
+.Logo-Twitter {
+  height: 35px;
+  width: auto;
+  padding-right: 5px;
+}
+
+.Logo-Instagram {
+  height: 36px;
+  width: auto;
+}
+
+.Logo-Linkedin {
+  height: 42px;
+  width: auto;
+}
+
+ul {
+  padding: 10px 20px;
+}
+
+.Banner {
+  background-image: url(Imágenes\Banner.jpg);
 }
