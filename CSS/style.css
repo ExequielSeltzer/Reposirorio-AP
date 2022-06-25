@@ -1,9 +1,16 @@
+* {
+  font-family: "Arial Narrow";
+  color: rgb(241, 207, 156);
+}
+
+body {
+  background-image: url(../Imágenes/Background.jpg);
+}
+
 .navbar {
-  background-color: blanchedalmond;
+  background-color: rgb(248, 196, 117);
   height: 75px;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
   display: flex;
   justify-content: space-between;
   align-items: right;
@@ -11,9 +18,9 @@
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
-.Logo-AP {
-  padding-bottom: 16px;
-  padding-left: 10px;
+#Logo-AP {
+  padding-bottom: 14px;
+  padding-left: 0px;
   height: 70px;
   width: auto;
 }
@@ -33,10 +40,64 @@
   width: auto;
 }
 
-ul {
+li {
   padding: 10px 20px;
+  position: relative;
 }
 
-.Banner {
-  background-image: url(Imágenes\Banner.jpg);
+#Boton-login {
+  color: black;
+  border-color: black;
+  border-width: 2px;
+}
+
+#img-Banner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#Título {
+  position: absolute;
+  top: 80px;
+  left: 22px;
+  color: rgb(241, 207, 156);
+  font-size: 40px;
+}
+
+.card {
+  position: right;
+  margin-left: 0px;
+}
+
+#Foto-CV {
+  height: 270px;
+  width: auto;
+  float: left;
+  align-items: left;
+}
+
+.Card-Personal {
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  text-align: left;
+}
+
+.Card-Personal h2 {
+  font-size: 30px;
+}
+
+a {
+  color: rgb(241, 207, 156);
+}
+
+footer {
+  width: 100%;
+  align-items: center;
+}
+
+footer h7 {
+  padding-bottom: 10px;
 }
